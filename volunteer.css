@@ -1,0 +1,154 @@
+html{
+	box-sizing: border-box;	
+}
+body{
+	overflow-x: hidden;
+	font-family: 'Roboto';
+	margin: 0%;
+	background-color: wheat;
+
+}
+.nav{
+	position: relative;
+	top:0%;
+	z-index: 6;
+	font-family: 'Roboto';
+	left: 0%;
+	height: 10vh;
+	background-color: #04540e;
+	width:100vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav .logo-wrapper {
+    display: flex;
+    height: 100%;
+    margin-left: 4px;
+    /* margin-bottom:5%; */
+    align-items: center;
+}
+.nav .logo{
+	width: 150.25px;
+	/* margin-right: 80px; */
+	margin-left: 20px;
+	height: 62px;
+	top:0%;
+	padding: 0%;
+	margin:0%;
+	left: 1%;
+}
+.nav .logo img{
+	top:0%;
+	padding: 0%;
+	left:0%;
+	width: 100%;
+	height: 100%;
+}
+.nav .head{
+	margin-left: 3%;
+	font-size: 120%;
+	white-space: nowrap;
+	width: 100%;
+	font-weight: bold;
+	font-family: 'Roboto';
+	color: #b78832;
+}
+.nav ul{
+	position: absolute;
+	top: 0%;
+	right: 0%;
+	width: 40%;
+	white-space: nowrap;
+	margin: 0%;
+	height: inherit;
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+}
+
+.nav li{
+	display:inline;
+	padding:1%; 
+	font-weight: bold;
+}
+
+.nav  a{
+	cursor: pointer;
+	text-decoration: none;
+	color: #222222;
+	font-size: 95%;
+	font-family: 'Roboto'; 
+}
+.nav a:hover{
+	color: #b78832;
+}
+.nav .head a{
+	color: #b78832;
+}
+
+.main-content ul{
+	float: left;
+    left:10%;
+    width: 50%;
+    font-family: 'Roboto';
+    position: relative;
+    font-size: large;
+}
+.main-content h1 {
+	float: left;
+	width: 50%;
+    color: #b78832;
+    font-size: 200%;
+    position: relative;
+    top: 10%;
+    font-weight: 700;
+    font-family: 'Roboto';
+    margin-left: 10%;
+    z-index: 5;
+}
+.main-content h2 {
+	float: left;
+	width: 60%;
+
+    color: #222222;
+    font-size: 150%;
+    margin-top: 2%;
+    margin-bottom: 0.7%;
+    z-index: 5;
+    margin-left: 10%;
+}
+.main-content p.a {
+	float: left;
+    text-align: left;
+    color: #222222;
+    margin-top: 0%;
+	width: 60%;
+
+    font-size: 100%;
+    padding-bottom: 1.%;
+    border-bottom: 1px solid #222222;
+}
+.main-content p {
+	float: left;
+    width: 60%;
+    left: 10%;
+    font-family: 'Roboto';
+    position: relative;
+    top: -3%;
+    color: #FFFFFF;
+    z-index: 4;
+    text-align: center;
+    
+}
+img{
+	width: 200px;
+	height: 200px;
+	padding-top: 150px;
+	padding-right: 20px;
+}
+.content .col{
+	float: right;
+	width: 40%;
+}
+
